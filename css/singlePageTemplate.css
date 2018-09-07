@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: source-sans-pro, sans-serif;
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -62,16 +62,28 @@ ul li a {
 ul li:hover a {
 	color: #2C9AB7;
 }
-.hero_header {
-	color: #00000;
+.hero_bottom {
+	color: #ffffff;
 	text-align: center;
-	background: #FFFFFF;
+	background: none;
 	margin-top: 50px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+
+.hero_header {
+	color: #00000;
+	background: none;
+	text-align: left;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 140px;
+	margin-left: 30px;
+	letter-spacing: 4px;
+}
+
 /* Hero Section */
 .hero {
 	background-image: url(../images/MainBG.jpg);
@@ -368,8 +380,10 @@ nav ul li {
 	padding-left: 10px;
 	padding-right: 10px;
 	line-height: 22px;
-	text-align: center;
+	text-align: left;
 }
+	
+
 }
 
 /* Small Tablets */
